@@ -67,13 +67,12 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 5px 80px;
-    background: #ccc8cc;
-    box-shadow: #000000;
     z-index: 900;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    backdrop-filter: blur(10px);
 }
 .header{
   display: flex;
