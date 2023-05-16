@@ -68,7 +68,7 @@ header{
     justify-content: space-between;
     padding: 5px 80px;
     z-index: 900;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -94,7 +94,8 @@ header{
   background: #5e5f5f;
   color: #fff;
   text-decoration: none;
-}.containerr{
+}
+.containerr{
   display: grid;
   align-items: center; 
   grid-template-columns: 1fr 1fr 1fr;
@@ -292,7 +293,7 @@ header{
   font-size:13px;
   margin-bottom:0;
 }
-@media (max-width:799px){
+@media (max-width:600px){
   #navbar {
   display: flex;
   flex-direction: column;
